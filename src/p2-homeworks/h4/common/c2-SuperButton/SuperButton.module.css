@@ -1,0 +1,56 @@
+.supperButton{
+   margin-bottom: 15px;
+}
+.default {
+   border-radius: 4px;
+   background-color: #1ee2f4;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 18px;
+   padding: 13px;
+   width: 120px;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.default span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+}
+
+.default span:after {
+   content: '\2713';
+   font-size: 25px;
+   position: absolute;
+   opacity: 0;
+   top: -5px;
+   left: -10px;
+   transition: 0.5s;
+}
+
+.default:hover span {
+   padding-left: 25px;
+}
+
+.default:hover span:after {
+   opacity: 1;
+   left: 0;
+}
+
+.default:disabled {
+   opacity: 0.5;
+}
+.default:disabled span:after {
+   content: '\2717';
+}
+
+.red {
+   background: red;
+}
+
+.red span:after {
+   content: '\2717';
+}

@@ -1,0 +1,30 @@
+.label {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.checkbox {
+   appearance: none;
+   width: 25px;
+   height: 25px;
+   border: 2px solid #62B1F6;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.checkbox:checked {
+   background: url(check.png) -15px -5px/ 53px no-repeat;
+}
+
+.spanClassName {
+   padding-left: 5px;
+   display: inline-block;
+   height: 100%;
+   margin: 0 auto;
+   font-family: Roboto, serif;
+}
+.spanClassName:hover {
+   text-decoration: underline;
+}
+
