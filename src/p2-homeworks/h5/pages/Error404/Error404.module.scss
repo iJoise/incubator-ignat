@@ -1,0 +1,40 @@
+.body{
+  background:url('img/bg.png') no-repeat center center #1d1d1d;
+  color:#eee;
+  font-family:Corbel,Arial,Helvetica,sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rocket{
+  width:275px;
+  height:375px;
+  background:url('img/rocket.png') no-repeat;
+  position:relative;
+}
+
+
+.hgroup{
+  display:block;
+  margin:0 auto;
+  width:850px;
+  font-family:'Century Gothic',Calibri,'Myriad Pro',Arial,Helvetica,sans-serif;
+  text-align:center;
+}
+
+h1{
+  color:#76D7FB;
+  font-size:60px;
+  text-shadow:3px 3px 0 #3D606D;
+  white-space:nowrap;
+}
+
+h2{
+  color:#9FE3FC;
+  font-size:18px;
+  font-weight:normal;
+  padding:25px 0;
+}

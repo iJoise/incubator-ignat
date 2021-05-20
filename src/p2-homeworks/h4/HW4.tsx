@@ -35,6 +35,8 @@ function HW4() {
             />
 
             <SuperInputText
+               value={text}
+               onChangeText={setText}
                label={'Password'}
                className={s.blue}// проверьте, рабоет ли смешивание классов
             />
