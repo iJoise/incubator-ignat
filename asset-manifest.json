@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/incubator-ignat/static/css/main.9c21bb55.chunk.css",
+    "main.js": "/incubator-ignat/static/js/main.c821566a.chunk.js",
+    "main.js.map": "/incubator-ignat/static/js/main.c821566a.chunk.js.map",
+    "runtime-main.js": "/incubator-ignat/static/js/runtime-main.d324e3fd.js",
+    "runtime-main.js.map": "/incubator-ignat/static/js/runtime-main.d324e3fd.js.map",
+    "static/js/2.6f7e7109.chunk.js": "/incubator-ignat/static/js/2.6f7e7109.chunk.js",
+    "static/js/2.6f7e7109.chunk.js.map": "/incubator-ignat/static/js/2.6f7e7109.chunk.js.map",
+    "index.html": "/incubator-ignat/index.html",
+    "static/css/main.9c21bb55.chunk.css.map": "/incubator-ignat/static/css/main.9c21bb55.chunk.css.map",
+    "static/js/2.6f7e7109.chunk.js.LICENSE.txt": "/incubator-ignat/static/js/2.6f7e7109.chunk.js.LICENSE.txt",
+    "static/media/Error404.module.scss": "/incubator-ignat/static/media/rocket.4c86f434.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d324e3fd.js",
+    "static/js/2.6f7e7109.chunk.js",
+    "static/css/main.9c21bb55.chunk.css",
+    "static/js/main.c821566a.chunk.js"
+  ]
+}
