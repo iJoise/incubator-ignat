@@ -9,7 +9,7 @@ function Header() {
       <div className={s.header}>
          <div className={s.logo}>IT-INCUBATOR</div>
          <div className={s.navigation}>
-            <div className={s.arrow}>« <span>Menu</span></div>
+            <div className={s.arrow}>« <span> Menu</span></div>
             <nav className={s.nav}>
                <ul className={s.list}>
                   <li>
