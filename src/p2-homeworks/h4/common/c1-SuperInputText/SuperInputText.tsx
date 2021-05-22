@@ -57,7 +57,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
             {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
          />
          <span className={s.bar}/>
-         <div className={s.label}>{label}</div>
+         {label && <div className={s.label}>{label}</div>}
          {error && <span className={finalSpanClassName}>{error}</span>}
       </div>
    )

@@ -3,18 +3,19 @@ import React from 'react'
 import HW2 from '../../h2/HW2'
 import HW3 from '../../h3/HW3'*/
 import HW4 from '../../../h4/HW4'
+import HW6 from '../../../h6/HW6'
+import s from './PreJunior.module.scss'
 
 
 
 function PreJunior() {
     return (
-        <div>
+        <div className={s.container}>
             {/*<HW1/>*/}
             {/*<HW2/>*/}
             {/*<HW3/>*/}
             <HW4/>
-            {/*<HW6/>*/}
-
+            <HW6/>
         </div>
     )
 }
