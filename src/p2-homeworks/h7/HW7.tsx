@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
+import s from "./HW7.module.scss";
+
 
 const arr = ['x', 'y', 'z']
 
@@ -10,30 +12,31 @@ function HW7() {
     return (
         <div>
             <hr/>
-            homeworks 7
+           <h3>homeworks 7</h3>
 
             {/*should work (должно работать)*/}
-            <div>
-                <SuperSelect
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                />
-            </div>
-            <div>
-                <SuperRadio
+           <div className={s.hw_container}>
+              <div>
+                 <SuperRadio
                     name={'radio'}
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
-                />
-            </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
-            <hr/>
+                 />
+              </div>
+              <div>
+                 <SuperSelect
+                    options={arr}
+                    value={value}
+                    onChangeOption={onChangeOption}
+                 />
+              </div>
+              <hr/>
+              {/*для личного творчества, могу проверить*/}
+              {/*<AlternativeSuperSelect/>*/}
+              {/*<AlternativeSuperRadio/>*/}
+              <hr/>
+           </div>
         </div>
     )
 }
