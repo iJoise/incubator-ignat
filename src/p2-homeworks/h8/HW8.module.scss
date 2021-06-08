@@ -1,0 +1,26 @@
+
+.hw_container {
+  margin: 0 auto;
+  max-width: 450px;
+}
+.people {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+  font-size: 22px;
+  &:nth-child(even) {
+    background-color: rgba(153, 153, 153, 0.5);
+  }
+  &__name{
+  }
+  &__age{}
+}
+
+.botton_group {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
