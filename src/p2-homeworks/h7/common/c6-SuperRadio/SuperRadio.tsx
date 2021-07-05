@@ -21,7 +21,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
    }
 ) => {
    const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-      console.log(e)
       const value = e.currentTarget.value
       onChange && onChange(e)
       onChangeOption && onChangeOption(value)

@@ -1,4 +1,5 @@
 import React from "react";
+import HW12 from "../../../h12/HW12";
 
 type JuniorPlusPropsType = {
 
@@ -9,7 +10,7 @@ export const JuniorPlus: React.FC<JuniorPlusPropsType> = () => {
 
    return (
       <div>
-         JuniorPlus
+         <HW12/>
       </div>
    )
 }
